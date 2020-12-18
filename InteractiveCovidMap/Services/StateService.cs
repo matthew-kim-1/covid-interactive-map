@@ -1,12 +1,12 @@
-﻿using AWSServerless2.Models;
+﻿using InteractiveCovidMap.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using static AWSServerless2.Common.Constants;
+using static InteractiveCovidMap.Common.Constants;
 
-namespace AWSServerless2.Services
+namespace InteractiveCovidMap.Services
 {
     public class StateService : IStateService
     {

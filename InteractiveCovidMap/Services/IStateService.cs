@@ -1,8 +1,8 @@
-﻿using AWSServerless2.Models;
+﻿using InteractiveCovidMap.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AWSServerless2.Services
+namespace InteractiveCovidMap.Services
 {
     public interface IStateService
     {

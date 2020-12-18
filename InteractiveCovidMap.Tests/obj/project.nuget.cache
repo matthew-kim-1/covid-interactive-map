@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R1feRPz344u7y/x4b7MlUp2JfClabFlOv7yrAtwECr6PUrdRtpk9mT1E7Wul6CfToDg9knhjjmI7G/0/Rs9nag==",
+  "dgSpecHash": "Rnd/Gp+vuYAEx48Gqw8ghkX0u+e6Rw4aASbt90IkeCI/6sZ/pqrGYMI3nCFOtDVFhhZ41fIrqKvAOh58HEr/rA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,6 @@
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\awssdk.core\\3.3.100\\awssdk.core.3.3.100.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.3.101\\awssdk.extensions.netcore.setup.3.3.101.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.codecoverage\\1.0.3\\microsoft.codecoverage.1.0.3.nupkg.sha512",
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
@@ -33,7 +32,7 @@
     "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.win32.registry\\4.0.0\\microsoft.win32.registry.4.0.0.nupkg.sha512",
     "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Matthew Kim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

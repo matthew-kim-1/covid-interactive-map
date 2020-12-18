@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AWSServerless2.Common
+namespace InteractiveCovidMap.Common
 {
     public class Helper
     {
