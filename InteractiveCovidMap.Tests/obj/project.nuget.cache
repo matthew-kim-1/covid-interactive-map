@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Y2MoYURp+JlUR97PQ8ZLx13pwGRI9CrVEB7AW2fhubPhL1ndY7knff/CQBUAuGOVjNAe3j5hEZLY76Q80ZZtw==",
+  "dgSpecHash": "R1feRPz344u7y/x4b7MlUp2JfClabFlOv7yrAtwECr6PUrdRtpk9mT1E7Wul6CfToDg9knhjjmI7G/0/Rs9nag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.3.0\\amazon.lambda.apigatewayevents.2.3.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",

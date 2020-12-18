@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
       "projectName": "InteractiveCovidMap",
-      "projectPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+      "projectPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
       "packagesPath": "C:\\Users\\Matthew Kim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\obj\\",
+      "outputPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"

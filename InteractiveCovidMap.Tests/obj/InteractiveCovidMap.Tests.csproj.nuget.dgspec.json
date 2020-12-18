@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj": {}
+    "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj": {
+    "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
         "projectName": "InteractiveCovidMap.Tests",
-        "projectPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
+        "projectPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
         "packagesPath": "C:\\Users\\Matthew Kim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
-                "projectPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj"
+              "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
+                "projectPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
+    "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
         "projectName": "InteractiveCovidMap",
-        "projectPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+        "projectPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
         "packagesPath": "C:\\Users\\Matthew Kim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew Kim\\source\\repos\\InteractiveCovidMap\\obj\\",
+        "outputPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
