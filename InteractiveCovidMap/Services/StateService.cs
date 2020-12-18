@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using static InteractiveCovidMap.Common.Constants;
-
+ 
 namespace InteractiveCovidMap.Services
 {
     public class StateService : IStateService

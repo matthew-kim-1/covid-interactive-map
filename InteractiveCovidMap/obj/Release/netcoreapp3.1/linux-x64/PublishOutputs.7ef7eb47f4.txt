@@ -1,0 +1,15 @@
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\InteractiveCovidMap
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\appsettings.json
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\aws-lambda-tools-defaults.json
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\InteractiveCovidMap.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\InteractiveCovidMap.deps.json
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\InteractiveCovidMap.runtimeconfig.json
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\InteractiveCovidMap.pdb
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll

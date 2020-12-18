@@ -10,7 +10,7 @@ namespace InteractiveCovidMap.Controllers
     [Route("v1/state")]
     public class StateController : Controller
     {
-        private IStateService _stateService;
+        private readonly IStateService _stateService;
 
         public StateController(IStateService stateService)
         {

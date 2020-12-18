@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NeB4+trJ6GaEBN9zfWr1P5LUvztZXCH9znUIS40ubaNAc7ACFrZU98IOz0ZDSvTXX/QzqsJYerMAEE8ChLO+9g==",
+  "dgSpecHash": "6Rjp5CN2O1G9BT6FOcX+Ky/ZvnROxkmsZkJTVbH8Cm02FudaEZiCP4kDwbxDXtspW9DZPvsmNzVfzzvdriW6ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,8 @@
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\3.1.10\\microsoft.netcore.app.host.linux-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
