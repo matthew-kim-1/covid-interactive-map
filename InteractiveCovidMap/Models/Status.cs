@@ -1,11 +1,17 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 
 namespace InteractiveCovidMap.Models
 {
     public class Status
     {
-        public DateTime buildTime { get; set; }
-        public bool production { get; set; }
-        public int runNumber { get; set; }
+        [JsonPropertyName("buildTime")]
+        public DateTime BuildTime { get; set; }
+
+        [JsonPropertyName("production")]
+        public bool Production { get; set; }
+
+        [JsonPropertyName("runNumber")]
+        public int RunNumber { get; set; }
     }
 }

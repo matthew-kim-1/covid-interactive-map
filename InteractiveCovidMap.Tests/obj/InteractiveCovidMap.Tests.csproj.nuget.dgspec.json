@@ -86,12 +86,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -101,11 +95,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     },
@@ -152,6 +141,14 @@
               "target": "Package",
               "version": "[5.2.0, )"
             },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "FileHelpers": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -167,12 +164,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -182,11 +173,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

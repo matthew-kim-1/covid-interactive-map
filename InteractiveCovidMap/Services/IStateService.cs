@@ -8,6 +8,8 @@ namespace InteractiveCovidMap.Services
     {
         Task<IEnumerable<CurrentState>> GetCurrentStatesAsync();
 
+        Task<IEnumerable<StateCodeName>> GetStatesCodeNameAsync();
+
         Task<bool> CheckCovidTrackingStatus();
     }
 }

@@ -1,67 +1,182 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace InteractiveCovidMap.Models
 {
     public class CurrentState
     {
-        public int date { get; set; }
-        public string state { get; set; }
-        public int positive { get; set; }
-        public int? probableCases { get; set; }
-        public int negative { get; set; }
-        public int? pending { get; set; }
-        public string totalTestResultsSource { get; set; }
-        public int totalTestResults { get; set; }
-        public int? hospitalizedCurrently { get; set; }
-        public int? hospitalizedCumulative { get; set; }
-        public int? inIcuCurrently { get; set; }
-        public int? inIcuCumulative { get; set; }
-        public int? onVentilatorCurrently { get; set; }
-        public int? onVentilatorCumulative { get; set; }
-        public int? recovered { get; set; }
-        public string dataQualityGrade { get; set; }
-        public string lastUpdateEt { get; set; }
-        public DateTime dateModified { get; set; }
-        public string checkTimeEt { get; set; }
-        public int death { get; set; }
-        public int? hospitalized { get; set; }
-        public DateTime dateChecked { get; set; }
-        public int? totalTestsViral { get; set; }
-        public int? positiveTestsViral { get; set; }
-        public int? negativeTestsViral { get; set; }
-        public int? positiveCasesViral { get; set; }
-        public int? deathConfirmed { get; set; }
-        public int? deathProbable { get; set; }
-        public int? totalTestEncountersViral { get; set; }
-        public int? totalTestsPeopleViral { get; set; }
-        public int? totalTestsAntibody { get; set; }
-        public int? positiveTestsAntibody { get; set; }
-        public int? negativeTestsAntibody { get; set; }
-        public int? totalTestsPeopleAntibody { get; set; }
-        public int? positiveTestsPeopleAntibody { get; set; }
-        public int? negativeTestsPeopleAntibody { get; set; }
-        public int? totalTestsPeopleAntigen { get; set; }
-        public int? positiveTestsPeopleAntigen { get; set; }
-        public int? totalTestsAntigen { get; set; }
-        public int? positiveTestsAntigen { get; set; }
-        public string fips { get; set; }
-        public int positiveIncrease { get; set; }
-        public int negativeIncrease { get; set; }
-        public int total { get; set; }
-        public int totalTestResultsIncrease { get; set; }
-        public int posNeg { get; set; }
-        public int deathIncrease { get; set; }
-        public int hospitalizedIncrease { get; set; }
-        public string hash { get; set; }
-        public int commercialScore { get; set; }
-        public int negativeRegularScore { get; set; }
-        public int negativeScore { get; set; }
-        public int positiveScore { get; set; }
-        public int score { get; set; }
-        public string grade { get; set; }
+        [JsonPropertyName("date")]
+        public int Date { get; set; }
+
+        [JsonPropertyName("state")]
+        public string State { get; set; }
+
+        [JsonPropertyName("stateAbbreviation")]
+        public string StateAbbreviation { get { return State; } set { value = State; } }
+
+        [JsonPropertyName("stateName")]
+        public string StateName { get; set; }
+
+        [JsonPropertyName("positive")]
+        public int Positive { get; set; }
+
+        [JsonPropertyName("probableCases")]
+        public int? ProbableCases { get; set; }
+
+        [JsonPropertyName("negative")]
+        public int Negative { get; set; }
+
+        [JsonPropertyName("pending")]
+        public int? Pending { get; set; }
+
+        [JsonPropertyName("totalTestResultsSource")]
+        public string TotalTestResultsSource { get; set; }
+
+        [JsonPropertyName("totalTestResults")]
+        public int TotalTestResults { get; set; }
+
+        [JsonPropertyName("hospitalizedCurrently")]
+        public int? HospitalizedCurrently { get; set; }
+
+        [JsonPropertyName("hospitalizedCumulative")]
+        public int? HospitalizedCumulative { get; set; }
+
+        [JsonPropertyName("inIcuCurrently")]
+        public int? InIcuCurrently { get; set; }
+
+        [JsonPropertyName("inIcuCumulative")]
+        public int? InIcuCumulative { get; set; }
+
+        [JsonPropertyName("onVentilatorCurrently")]
+        public int? OnVentilatorCurrently { get; set; }
+
+        [JsonPropertyName("onVentilatorCumulative")]
+        public int? OnVentilatorCumulative { get; set; }
+
+        [JsonPropertyName("recovered")]
+        public int? Recovered { get; set; }
+
+        [JsonPropertyName("dataQualityGrade")]
+        public string DataQualityGrade { get; set; }
+
+        [JsonPropertyName("lastUpdateEt")]
+        public string LastUpdateEt { get; set; }
+
+        [JsonPropertyName("dateModified")]
+        public DateTime DateModified { get; set; }
+
+        [JsonPropertyName("checkTimeEt")]
+        public string CheckTimeEt { get; set; }
+
+        [JsonPropertyName("death")]
+        public int Death { get; set; }
+
+        [JsonPropertyName("hospitalized")]
+        public int? Hospitalized { get; set; }
+
+        [JsonPropertyName("dateChecked")]
+        public DateTime DateChecked { get; set; }
+
+        [JsonPropertyName("totalTestsViral")]
+        public int? TotalTestsViral { get; set; }
+
+        [JsonPropertyName("positiveTestsViral")]
+        public int? PositiveTestsViral { get; set; }
+
+        [JsonPropertyName("negativeTestsViral")]
+        public int? NegativeTestsViral { get; set; }
+
+        [JsonPropertyName("positiveCasesViral")]
+        public int? PositiveCasesViral { get; set; }
+
+        [JsonPropertyName("deathConfirmed")]
+        public int? DeathConfirmed { get; set; }
+
+        [JsonPropertyName("deathProbable")]
+        public int? DeathProbable { get; set; }
+
+        [JsonPropertyName("totalTestEncountersViral")]
+        public int? TotalTestEncountersViral { get; set; }
+
+        [JsonPropertyName("totalTestsPeopleViral")]
+        public int? TotalTestsPeopleViral { get; set; }
+
+        [JsonPropertyName("totalTestsAntibody")]
+        public int? TotalTestsAntibody { get; set; }
+
+        [JsonPropertyName("positiveTestsAntibody")]
+        public int? PositiveTestsAntibody { get; set; }
+
+        [JsonPropertyName("negativeTestsAntibody")]
+        public int? NegativeTestsAntibody { get; set; }
+
+        [JsonPropertyName("totalTestsPeopleAntibody")]
+        public int? TotalTestsPeopleAntibody { get; set; }
+
+        [JsonPropertyName("positiveTestsPeopleAntibody")]
+        public int? PositiveTestsPeopleAntibody { get; set; }
+
+        [JsonPropertyName("negativeTestsPeopleAntibody")]
+        public int? NegativeTestsPeopleAntibody { get; set; }
+
+        [JsonPropertyName("totalTestsPeopleAntigen")]
+        public int? TotalTestsPeopleAntigen { get; set; }
+
+        [JsonPropertyName("positiveTestsPeopleAntigen")]
+        public int? PositiveTestsPeopleAntigen { get; set; }
+
+        [JsonPropertyName("totalTestsAntigen")]
+        public int? TotalTestsAntigen { get; set; }
+
+        [JsonPropertyName("positiveTestsAntigen")]
+        public int? PositiveTestsAntigen { get; set; }
+
+        [JsonPropertyName("fips")]
+        public int Fips { get; set; }
+
+        [JsonPropertyName("id")]
+        public int Id { get { return Fips; } set { value = Fips; } }
+
+        [JsonPropertyName("positiveIncrease")]
+        public int PositiveIncrease { get; set; }
+
+        [JsonPropertyName("negativeIncrease")]
+        public int NegativeIncrease { get; set; }
+
+        [JsonPropertyName("total")]
+        public int Total { get; set; }
+
+        [JsonPropertyName("totalTestResultsIncrease")]
+        public int TotalTestResultsIncrease { get; set; }
+
+        [JsonPropertyName("posNeg")]
+        public int PosNeg { get; set; }
+
+        [JsonPropertyName("deathIncrease")]
+        public int DeathIncrease { get; set; }
+
+        [JsonPropertyName("hospitalizedIncrease")]
+        public int HospitalizedIncrease { get; set; }
+
+        [JsonPropertyName("hash")]
+        public string Hash { get; set; }
+
+        [JsonPropertyName("commercialScore")]
+        public int CommercialScore { get; set; }
+
+        [JsonPropertyName("negativeRegularScore")]
+        public int NegativeRegularScore { get; set; }
+
+        [JsonPropertyName("negativeScore")]
+        public int NegativeScore { get; set; }
+
+        [JsonPropertyName("positiveScore")]
+        public int PositiveScore { get; set; }
+
+        [JsonPropertyName("score")]
+        public int Score { get; set; }
+
+        [JsonPropertyName("grade")]
+        public string Grade { get; set; }
     }
 }

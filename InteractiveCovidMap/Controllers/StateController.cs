@@ -30,6 +30,18 @@ namespace InteractiveCovidMap.Controllers
             return Ok(statesValues);
         }
 
+        [HttpGet("GetStatesCodeName")]
+        public async Task<IActionResult> GetStatesCodeName()
+        {
+            var statesCodeName = await _stateService.GetStatesCodeNameAsync();
+            if (statesCodeName == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(statesCodeName);
+        }
+
         // GET api/values/5
         //[HttpGet("{id}")]
         //public string Get(int id)
