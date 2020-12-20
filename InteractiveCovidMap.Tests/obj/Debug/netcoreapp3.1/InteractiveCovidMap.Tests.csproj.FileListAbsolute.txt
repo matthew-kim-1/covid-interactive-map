@@ -118,3 +118,4 @@ C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\Interactiv
 C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap.Tests\obj\Debug\netcoreapp3.1\InteractiveCovidMap.Tests.dll
 C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap.Tests\obj\Debug\netcoreapp3.1\InteractiveCovidMap.Tests.pdb
 C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap.Tests\obj\Debug\netcoreapp3.1\InteractiveCovidMap.Tests.genruntimeconfig.cache
+C:\Users\Matthew Kim\Source\Repos\matthew-kim-1\covid-interactive-map\InteractiveCovidMap.Tests\bin\Debug\netcoreapp3.1\FileHelpers.dll

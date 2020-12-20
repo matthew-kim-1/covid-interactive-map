@@ -25,7 +25,6 @@
       "InteractiveCovidMap/1.0.0": {
         "dependencies": {
           "Amazon.Lambda.AspNetCoreServer": "5.2.0",
-          "CsvHelper": "18.0.0",
           "FileHelpers": "3.4.2",
           "Newtonsoft.Json": "12.0.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -105,7 +104,7 @@
           "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
           "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
-          "Microsoft.CSharp.Reference": "4.0.0.0",
+          "Microsoft.CSharp": "4.0.0.0",
           "Microsoft.Extensions.Caching.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Caching.Memory": "3.1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions.Reference": "3.1.0.0",
@@ -400,20 +399,6 @@
           "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
         }
       },
-      "CsvHelper/18.0.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/CsvHelper.dll": {
-            "assemblyVersion": "18.0.0.0",
-            "fileVersion": "18.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/CsvHelper.dll": {}
-        }
-      },
       "FileHelpers/3.4.2": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -428,7 +413,6 @@
           "lib/netstandard2.0/FileHelpers.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Extensions.Configuration/2.1.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0"
@@ -947,7 +931,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.CSharp.Reference/4.0.0.0": {
+      "Microsoft.CSharp/4.0.0.0": {
         "compile": {
           "Microsoft.CSharp.dll": {}
         },
@@ -2227,26 +2211,12 @@
       "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
       "hashPath": "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
     },
-    "CsvHelper/18.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FYUh5uIqTEUVb2yoi8rZlUmYtq6iPhnobMH2GFaDwj8XFNcNVBENhoi3RUo2pmd7tJR86ZdEne2r3rMkbHBcYA==",
-      "path": "csvhelper/18.0.0",
-      "hashPath": "csvhelper.18.0.0.nupkg.sha512"
-    },
     "FileHelpers/3.4.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ufGUrJqqbGUz322Hv4lp/tvc9NaT7outVuJPynRrjA0MP14OjgpGvw1GjY5QAQP36D6k1PTdjDlxw/0n25y1xA==",
       "path": "filehelpers/3.4.2",
       "hashPath": "filehelpers.3.4.2.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.1.0": {
       "type": "package",
@@ -2724,7 +2694,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.CSharp.Reference/4.0.0.0": {
+    "Microsoft.CSharp/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

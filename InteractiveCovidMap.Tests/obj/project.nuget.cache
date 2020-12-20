@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tKknvczszFEpmfzJG+ScuPmlmGAtN1dLQWymniraNzXkT4DQFu10kmjG4jykwB/1qT5S0/wEAZNTfdVmq40M+Q==",
+  "dgSpecHash": "lO8RK7y7buG3SxIr9GlJhPahSyIPc06oCfxDuMX0oqUC1ylKprgtrkHYLGqgMZK3U2Oa6y4L8P2yf0N0otSiGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap.Tests\\InteractiveCovidMap.Tests.csproj",
   "expectedPackageFiles": [
@@ -13,10 +13,8 @@
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.testutilities\\1.2.0\\amazon.lambda.testutilities.1.2.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\awssdk.core\\3.3.100\\awssdk.core.3.3.100.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.3.101\\awssdk.extensions.netcore.setup.3.3.101.nupkg.sha512",
-    "C:\\Users\\Matthew Kim\\.nuget\\packages\\csvhelper\\18.0.0\\csvhelper.18.0.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\filehelpers\\3.4.2\\filehelpers.3.4.2.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.codecoverage\\1.0.3\\microsoft.codecoverage.1.0.3.nupkg.sha512",
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",

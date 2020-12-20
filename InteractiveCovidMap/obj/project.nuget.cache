@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9gdFJ7OUvbA+OCg8Xp4iZcPSN0+0Y2Qqg1TD1quog8vxH45/ZJZCzKkzzMNn0qsQi6XcV8ygRIqMsTOTWmhxcw==",
+  "dgSpecHash": "DFREsb4Hzo1mudkSZqdhtWp6EEslyRVImlB5baOZ/uMa1sbWTRJkWy/377dyXNO9T2uLgz3DZj43unBolPAVng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
   "expectedPackageFiles": [
@@ -10,9 +10,7 @@
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
-    "C:\\Users\\Matthew Kim\\.nuget\\packages\\csvhelper\\18.0.0\\csvhelper.18.0.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\filehelpers\\3.4.2\\filehelpers.3.4.2.nupkg.sha512",
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\Matthew Kim\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",

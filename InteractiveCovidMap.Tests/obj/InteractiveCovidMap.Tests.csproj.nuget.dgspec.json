@@ -141,10 +141,6 @@
               "target": "Package",
               "version": "[5.2.0, )"
             },
-            "CsvHelper": {
-              "target": "Package",
-              "version": "[18.0.0, )"
-            },
             "FileHelpers": {
               "target": "Package",
               "version": "[3.4.2, )"
