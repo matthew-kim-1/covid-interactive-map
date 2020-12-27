@@ -13,6 +13,6 @@
     "s3-prefix"     : "InteractiveCovidMap/",
     "template"      : "serverless.template",
     "template-parameters" : "",
-    "s3-bucket"           : "covidtrackings3bucket",
-    "stack-name"          : "CovidTrackingLambdaWebAPI"
+    "s3-bucket"           : "covidtrackings3bucket-dev",
+    "stack-name"          : "CovidTrackingLambdaWebAPI-Dev"
 }
