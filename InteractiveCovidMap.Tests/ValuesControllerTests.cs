@@ -11,10 +11,10 @@ using Amazon.Lambda.APIGatewayEvents;
 
 using Newtonsoft.Json;
 
-using InteractiveCovidMap;
+using CovidTracking;
 
 
-namespace InteractiveCovidMap.Tests
+namespace CovidTracking.Tests
 {
     public class ValuesControllerTests
     {

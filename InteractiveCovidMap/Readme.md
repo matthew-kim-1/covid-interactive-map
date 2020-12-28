@@ -58,12 +58,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "InteractiveCovidMap/test/InteractiveCovidMap.Tests"
+    cd "CovidTracking/test/CovidTracking.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "InteractiveCovidMap/src/InteractiveCovidMap"
+    cd "CovidTracking/src/CovidTracking"
     dotnet lambda deploy-serverless
 ```

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace InteractiveCovidMap.Models
+namespace CovidTracking.Models
 {
     public class Status
     {

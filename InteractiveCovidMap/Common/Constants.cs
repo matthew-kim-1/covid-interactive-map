@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InteractiveCovidMap.Common
+namespace CovidTracking.Common
 {
     public static class Constants
     {

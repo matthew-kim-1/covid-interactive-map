@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace InteractiveCovidMap
+namespace CovidTracking
 {
     /// <summary>
     /// The Main function can be used to run the ASP.NET Core application locally using the Kestrel webserver.

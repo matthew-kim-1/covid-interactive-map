@@ -2,18 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using InteractiveCovidMap.Services;
+using CovidTracking.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
-namespace InteractiveCovidMap.Controllers
+namespace CovidTracking.Controllers
 {
     [Route("v1/state")]
     public class StateController : Controller
     {
+        private readonly ILogger<StateController> _logger;
         private readonly IStateService _stateService;
 
-        public StateController(IStateService stateService)
+        public StateController(ILogger<StateController> logger,IStateService stateService)
         {
+            _logger = logger;
             _stateService = stateService;
         }
 
@@ -42,29 +45,28 @@ namespace InteractiveCovidMap.Controllers
             return Ok(statesCodeName);
         }
 
-        // GET api/values/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        [HttpGet("CheckCovidTrackingStatus")]
+        public async Task<IActionResult> CheckCovidTrackingStatus()
+        {
+            var status = await _stateService.CheckCovidTrackingStatusAsync();
+            if (status == null)
+            {
+                return NotFound();
+            }
 
-        //// POST api/values
-        //[HttpPost]
-        //public void Post([FromBody]string value)
-        //{
-        //}
+            return Ok(status);
+        }
 
-        //// PUT api/values/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
+        [HttpPost("UpdateCurrentStates")]
+        public async Task<IActionResult> UpdateCurrentStates()
+        {
+            var recordCount = await _stateService.UpdateCurrentStatesAsync();
+            if (recordCount == null)
+            {
+                return NotFound();
+            }
 
-        //// DELETE api/values/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+            return Ok(recordCount);
+        }
     }
 }

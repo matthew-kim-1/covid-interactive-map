@@ -1,15 +1,19 @@
-﻿using InteractiveCovidMap.Models;
+﻿using CovidTracking.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace InteractiveCovidMap.Services
+namespace CovidTracking.Services
 {
     public interface IStateService
     {
         Task<IEnumerable<CurrentState>> GetCurrentStatesAsync();
+        
+        Task<IEnumerable<CurrentState>> GetCovidTrackingCurrentStatesAsync();
 
         Task<IEnumerable<StateCodeName>> GetStatesCodeNameAsync();
 
-        Task<bool> CheckCovidTrackingStatus();
+        Task<bool?> CheckCovidTrackingStatusAsync();
+
+        Task<int?> UpdateCurrentStatesAsync();
     }
 }

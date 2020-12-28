@@ -1,10 +1,15 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace InteractiveCovidMap.Models
+namespace CovidTracking.Models
 {
     public class CurrentState
     {
+        [Key]
+        [JsonPropertyName("currentStateId")]
+        public int CurrentStateId { get; set; }
+
         [JsonPropertyName("date")]
         public int Date { get; set; }
 
@@ -18,13 +23,13 @@ namespace InteractiveCovidMap.Models
         public string StateName { get; set; }
 
         [JsonPropertyName("positive")]
-        public int Positive { get; set; }
+        public int? Positive { get; set; }
 
         [JsonPropertyName("probableCases")]
         public int? ProbableCases { get; set; }
 
         [JsonPropertyName("negative")]
-        public int Negative { get; set; }
+        public int? Negative { get; set; }
 
         [JsonPropertyName("pending")]
         public int? Pending { get; set; }
@@ -33,7 +38,7 @@ namespace InteractiveCovidMap.Models
         public string TotalTestResultsSource { get; set; }
 
         [JsonPropertyName("totalTestResults")]
-        public int TotalTestResults { get; set; }
+        public int? TotalTestResults { get; set; }
 
         [JsonPropertyName("hospitalizedCurrently")]
         public int? HospitalizedCurrently { get; set; }
@@ -62,20 +67,8 @@ namespace InteractiveCovidMap.Models
         [JsonPropertyName("lastUpdateEt")]
         public string LastUpdateEt { get; set; }
 
-        [JsonPropertyName("dateModified")]
-        public DateTime DateModified { get; set; }
-
-        [JsonPropertyName("checkTimeEt")]
-        public string CheckTimeEt { get; set; }
-
         [JsonPropertyName("death")]
-        public int Death { get; set; }
-
-        [JsonPropertyName("hospitalized")]
-        public int? Hospitalized { get; set; }
-
-        [JsonPropertyName("dateChecked")]
-        public DateTime DateChecked { get; set; }
+        public int? Death { get; set; }
 
         [JsonPropertyName("totalTestsViral")]
         public int? TotalTestsViral { get; set; }
@@ -134,49 +127,28 @@ namespace InteractiveCovidMap.Models
         [JsonPropertyName("fips")]
         public int Fips { get; set; }
 
-        [JsonPropertyName("id")]
-        public int Id { get { return Fips; } set { value = Fips; } }
-
         [JsonPropertyName("positiveIncrease")]
-        public int PositiveIncrease { get; set; }
-
-        [JsonPropertyName("negativeIncrease")]
-        public int NegativeIncrease { get; set; }
-
-        [JsonPropertyName("total")]
-        public int Total { get; set; }
+        public int? PositiveIncrease { get; set; }
 
         [JsonPropertyName("totalTestResultsIncrease")]
         public int TotalTestResultsIncrease { get; set; }
-
-        [JsonPropertyName("posNeg")]
-        public int PosNeg { get; set; }
 
         [JsonPropertyName("deathIncrease")]
         public int DeathIncrease { get; set; }
 
         [JsonPropertyName("hospitalizedIncrease")]
-        public int HospitalizedIncrease { get; set; }
+        public int? HospitalizedIncrease { get; set; }
 
-        [JsonPropertyName("hash")]
-        public string Hash { get; set; }
+        [JsonPropertyName("createdBy")]
+        public string CreatedBy { get; set; }
 
-        [JsonPropertyName("commercialScore")]
-        public int CommercialScore { get; set; }
+        [JsonPropertyName("createdDate")]
+        public DateTime CreatedDate { get; set; }
 
-        [JsonPropertyName("negativeRegularScore")]
-        public int NegativeRegularScore { get; set; }
+        [JsonPropertyName("updatedBy")]
+        public string UpdatedBy { get; set; }
 
-        [JsonPropertyName("negativeScore")]
-        public int NegativeScore { get; set; }
-
-        [JsonPropertyName("positiveScore")]
-        public int PositiveScore { get; set; }
-
-        [JsonPropertyName("score")]
-        public int Score { get; set; }
-
-        [JsonPropertyName("grade")]
-        public string Grade { get; set; }
+        [JsonPropertyName("updatedDate")]
+        public DateTime UpdatedDate { get; set; }
     }
 }

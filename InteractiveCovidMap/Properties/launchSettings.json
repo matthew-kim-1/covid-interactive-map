@@ -14,7 +14,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "InteractiveCovidMap": {
+    "CovidTracking": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

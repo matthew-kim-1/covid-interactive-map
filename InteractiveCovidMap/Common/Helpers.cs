@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InteractiveCovidMap.Common
+namespace CovidTracking.Common
 {
-    public class Helper
+    public class Helpers
     {
+       
     }
 }

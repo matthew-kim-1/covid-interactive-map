@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InteractiveCovidMap.Controllers
+namespace CovidTracking.Controllers
 {
     [Route("v1/county")]
     public class CountyController: Controller

@@ -10,7 +10,7 @@
     "region"      : "us-east-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
-    "s3-prefix"     : "InteractiveCovidMap/",
+    "s3-prefix"     : "CovidTracking/",
     "template"      : "serverless.template",
     "template-parameters" : "",
     "s3-bucket"           : "covidtrackings3bucket-dev",

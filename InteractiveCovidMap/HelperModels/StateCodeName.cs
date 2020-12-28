@@ -1,6 +1,6 @@
 ﻿using FileHelpers;
 
-namespace InteractiveCovidMap.Models
+namespace CovidTracking.Models
 {
     [IgnoreFirst]
     [IgnoreEmptyLines]
