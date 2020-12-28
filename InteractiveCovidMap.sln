@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidTracking", "CovidTracking.csproj", "{7AE34C93-38D6-4B0E-8E77-0C5FD90DAF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidTracking", "InteractiveCovidMap\CovidTracking.csproj", "{7AE34C93-38D6-4B0E-8E77-0C5FD90DAF16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidTracking.Tests", "..\InteractiveCovidMap.Tests\CovidTracking.Tests.csproj", "{82A9E87A-934A-48B3-B6E2-90D8690DE347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidTracking.Tests", "InteractiveCovidMap.Tests\CovidTracking.Tests.csproj", "{82A9E87A-934A-48B3-B6E2-90D8690DE347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
