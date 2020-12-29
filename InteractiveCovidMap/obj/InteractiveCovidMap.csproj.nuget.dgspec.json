@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {}
+    "C:\\Users\\minsu\\Documents\\repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
+    "C:\\Users\\minsu\\Documents\\repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+        "projectUniqueName": "C:\\Users\\minsu\\Documents\\repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
         "projectName": "InteractiveCovidMap",
-        "projectPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
-        "packagesPath": "C:\\Users\\Matthew Kim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew Kim\\Source\\Repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\obj\\",
+        "projectPath": "C:\\Users\\minsu\\Documents\\repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\InteractiveCovidMap.csproj",
+        "packagesPath": "C:\\Users\\minsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minsu\\Documents\\repos\\matthew-kim-1\\covid-interactive-map\\InteractiveCovidMap\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Matthew Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
