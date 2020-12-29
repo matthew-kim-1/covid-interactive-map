@@ -8,3 +8,5 @@
 /.vs/InteractiveCovidMap/v16
 /InteractiveCovidMap/bin/Debug/netcoreapp3.1
 /InteractiveCovidMap.Tests/bin/Debug/netcoreapp3.1
+/InteractiveCovidMap/bin/Release/netcoreapp3.1
+/InteractiveCovidMap.Tests/bin/Release/netcoreapp3.1
