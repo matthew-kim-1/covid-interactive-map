@@ -8,7 +8,7 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "InteractiveCovidMap::InteractiveCovidMap.LambdaEntryPoint::FunctionHandlerAsync",
+        "Handler": "CovidTracking::CovidTracking.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnetcore3.1",
         "CodeUri": "",
         "MemorySize": 256,
@@ -42,6 +42,7 @@
       "Value": {
         "Fn::Sub": "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
       }
+      
     }
   }
 }

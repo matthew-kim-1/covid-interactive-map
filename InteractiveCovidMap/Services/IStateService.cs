@@ -1,13 +1,19 @@
-﻿using AWSServerless2.Models;
+﻿using CovidTracking.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AWSServerless2.Services
+namespace CovidTracking.Services
 {
     public interface IStateService
     {
         Task<IEnumerable<CurrentState>> GetCurrentStatesAsync();
+        
+        Task<IEnumerable<CurrentState>> GetCovidTrackingCurrentStatesAsync();
 
-        Task<bool> CheckCovidTrackingStatus();
+        Task<IEnumerable<StateCodeName>> GetStatesCodeNameAsync();
+
+        Task<bool?> CheckCovidTrackingStatusAsync();
+
+        Task<int?> UpdateCurrentStatesAsync();
     }
 }
