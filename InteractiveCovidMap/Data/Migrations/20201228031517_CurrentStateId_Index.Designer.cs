@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     [DbContext(typeof(CovidTrackingContext))]
-    [Migration("20201228031306_CurrentStateId")]
-    partial class CurrentStateId
+    [Migration("20201228031517_CurrentStateId_Index")]
+    partial class CurrentStateId_Index
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -203,6 +203,8 @@ namespace CovidTracking.Migrations
                         .HasColumnType("integer");
 
                     b.HasKey("CurrentStateId");
+
+                    b.HasIndex("CurrentStateId");
 
                     b.ToTable("CurrentStates");
                 });

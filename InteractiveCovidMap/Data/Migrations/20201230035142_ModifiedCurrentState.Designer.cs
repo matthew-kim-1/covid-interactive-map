@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     [DbContext(typeof(CovidTrackingContext))]
-    [Migration("20201228042614_DeletedDeprecatedColumns")]
-    partial class DeletedDeprecatedColumns
+    [Migration("20201230035142_ModifiedCurrentState")]
+    partial class ModifiedCurrentState
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,9 +39,6 @@ namespace CovidTracking.Migrations
 
                     b.Property<int>("Date")
                         .HasColumnType("integer");
-
-                    b.Property<DateTime?>("DateModified")
-                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int?>("Death")
                         .HasColumnType("integer");
@@ -121,17 +118,14 @@ namespace CovidTracking.Migrations
                     b.Property<int?>("PositiveTestsViral")
                         .HasColumnType("integer");
 
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("text");
+
                     b.Property<int?>("ProbableCases")
                         .HasColumnType("integer");
 
                     b.Property<int?>("Recovered")
                         .HasColumnType("integer");
-
-                    b.Property<string>("State")
-                        .HasColumnType("text");
-
-                    b.Property<string>("StateAbbreviation")
-                        .HasColumnType("text");
 
                     b.Property<string>("StateName")
                         .HasColumnType("text");

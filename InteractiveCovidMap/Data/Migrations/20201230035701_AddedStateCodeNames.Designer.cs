@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     [DbContext(typeof(CovidTrackingContext))]
-    [Migration("20201228042824_DeletedModifiedDateColumn")]
-    partial class DeletedModifiedDateColumn
+    [Migration("20201230035701_AddedStateCodeNames")]
+    partial class AddedStateCodeNames
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -118,17 +118,14 @@ namespace CovidTracking.Migrations
                     b.Property<int?>("PositiveTestsViral")
                         .HasColumnType("integer");
 
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("text");
+
                     b.Property<int?>("ProbableCases")
                         .HasColumnType("integer");
 
                     b.Property<int?>("Recovered")
                         .HasColumnType("integer");
-
-                    b.Property<string>("State")
-                        .HasColumnType("text");
-
-                    b.Property<string>("StateAbbreviation")
-                        .HasColumnType("text");
 
                     b.Property<string>("StateName")
                         .HasColumnType("text");
@@ -173,7 +170,34 @@ namespace CovidTracking.Migrations
 
                     b.HasIndex("CurrentStateId");
 
+                    b.HasIndex("Fips");
+
                     b.ToTable("CurrentStates");
+                });
+
+            modelBuilder.Entity("CovidTracking.Models.StateCodeName", b =>
+                {
+                    b.Property<int>("StateCodeNameId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .UseIdentityByDefaultColumn();
+
+                    b.Property<int>("Fips")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StateName")
+                        .HasColumnType("text");
+
+                    b.HasKey("StateCodeNameId");
+
+                    b.HasIndex("Fips");
+
+                    b.HasIndex("StateCodeNameId");
+
+                    b.ToTable("StateCodeNames");
                 });
 #pragma warning restore 612, 618
         }

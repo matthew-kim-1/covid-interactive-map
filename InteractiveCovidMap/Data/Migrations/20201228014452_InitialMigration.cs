@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     public partial class InitialMigration : Migration
     {

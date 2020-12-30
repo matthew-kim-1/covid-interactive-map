@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace CovidTracking.Models
+namespace CovidTracking.HelperModels
 {
-    public class Status
+    public class CovidTrackingStatus
     {
         [JsonPropertyName("buildTime")]
         public DateTime BuildTime { get; set; }

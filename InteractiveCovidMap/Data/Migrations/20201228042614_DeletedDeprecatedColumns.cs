@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     public partial class DeletedDeprecatedColumns : Migration
     {

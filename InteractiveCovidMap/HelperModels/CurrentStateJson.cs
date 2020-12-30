@@ -1,23 +1,14 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace CovidTracking.Models
+namespace CovidTracking.HelperModels
 {
-    public class CurrentState
+    public class CurrentStateJson
     {
-        [Key]
-        [JsonPropertyName("currentStateId")]
-        public int CurrentStateId { get; set; }
-
         [JsonPropertyName("date")]
         public int Date { get; set; }
 
-        [JsonPropertyName("postalCode")]
+        [JsonPropertyName("state")]
         public string PostalCode { get; set; }
-
-        [JsonPropertyName("stateName")]
-        public string StateName { get; set; }
 
         [JsonPropertyName("positive")]
         public int? Positive { get; set; }
@@ -135,25 +126,5 @@ namespace CovidTracking.Models
 
         [JsonPropertyName("hospitalizedIncrease")]
         public int? HospitalizedIncrease { get; set; }
-
-        [JsonPropertyName("createdBy")]
-        public string CreatedBy { get; set; }
-
-        [JsonPropertyName("createdDate")]
-        public DateTime CreatedDate { get; set; }
-
-        [JsonPropertyName("updatedBy")]
-        public string UpdatedBy { get; set; }
-
-        [JsonPropertyName("updatedDate")]
-        public DateTime UpdatedDate { get; set; }
-
-        public CurrentState()
-        {
-            CreatedBy = "MATTHEW KIM";
-            CreatedDate = DateTime.Now;
-            UpdatedBy = "MATTHEW KIM";
-            UpdatedDate = DateTime.Now;
-        }
     }
 }

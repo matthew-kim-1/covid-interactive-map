@@ -3,15 +3,17 @@ using System;
 using CovidTracking.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CovidTracking.Migrations
+namespace CovidTracking.Data.Migrations
 {
     [DbContext(typeof(CovidTrackingContext))]
-    partial class CovidTrackingContextModelSnapshot : ModelSnapshot
+    [Migration("20201228014452_InitialMigration")]
+    partial class InitialMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,16 +23,16 @@ namespace CovidTracking.Migrations
 
             modelBuilder.Entity("CovidTracking.Models.CurrentState", b =>
                 {
-                    b.Property<int>("CurrentStateId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .UseIdentityByDefaultColumn();
 
-                    b.Property<string>("CreatedBy")
+                    b.Property<string>("CheckTimeEt")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp without time zone");
+                    b.Property<int>("CommercialScore")
+                        .HasColumnType("integer");
 
                     b.Property<string>("DataQualityGrade")
                         .HasColumnType("text");
@@ -38,7 +40,13 @@ namespace CovidTracking.Migrations
                     b.Property<int>("Date")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("Death")
+                    b.Property<DateTime>("DateChecked")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<int>("Death")
                         .HasColumnType("integer");
 
                     b.Property<int?>("DeathConfirmed")
@@ -53,13 +61,22 @@ namespace CovidTracking.Migrations
                     b.Property<int>("Fips")
                         .HasColumnType("integer");
 
+                    b.Property<string>("Grade")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Hash")
+                        .HasColumnType("text");
+
+                    b.Property<int?>("Hospitalized")
+                        .HasColumnType("integer");
+
                     b.Property<int?>("HospitalizedCumulative")
                         .HasColumnType("integer");
 
                     b.Property<int?>("HospitalizedCurrently")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("HospitalizedIncrease")
+                    b.Property<int>("HospitalizedIncrease")
                         .HasColumnType("integer");
 
                     b.Property<int?>("InIcuCumulative")
@@ -71,7 +88,16 @@ namespace CovidTracking.Migrations
                     b.Property<string>("LastUpdateEt")
                         .HasColumnType("text");
 
-                    b.Property<int?>("Negative")
+                    b.Property<int>("Negative")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NegativeIncrease")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NegativeRegularScore")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NegativeScore")
                         .HasColumnType("integer");
 
                     b.Property<int?>("NegativeTestsAntibody")
@@ -92,13 +118,19 @@ namespace CovidTracking.Migrations
                     b.Property<int?>("Pending")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("Positive")
+                    b.Property<int>("PosNeg")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Positive")
                         .HasColumnType("integer");
 
                     b.Property<int?>("PositiveCasesViral")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("PositiveIncrease")
+                    b.Property<int>("PositiveIncrease")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PositiveScore")
                         .HasColumnType("integer");
 
                     b.Property<int?>("PositiveTestsAntibody")
@@ -122,6 +154,9 @@ namespace CovidTracking.Migrations
                     b.Property<int?>("Recovered")
                         .HasColumnType("integer");
 
+                    b.Property<int>("Score")
+                        .HasColumnType("integer");
+
                     b.Property<string>("State")
                         .HasColumnType("text");
 
@@ -131,10 +166,13 @@ namespace CovidTracking.Migrations
                     b.Property<string>("StateName")
                         .HasColumnType("text");
 
+                    b.Property<int>("Total")
+                        .HasColumnType("integer");
+
                     b.Property<int?>("TotalTestEncountersViral")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("TotalTestResults")
+                    b.Property<int>("TotalTestResults")
                         .HasColumnType("integer");
 
                     b.Property<int>("TotalTestResultsIncrease")
@@ -161,15 +199,7 @@ namespace CovidTracking.Migrations
                     b.Property<int?>("TotalTestsViral")
                         .HasColumnType("integer");
 
-                    b.Property<string>("UpdatedBy")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("timestamp without time zone");
-
-                    b.HasKey("CurrentStateId");
-
-                    b.HasIndex("CurrentStateId");
+                    b.HasKey("Id");
 
                     b.ToTable("CurrentStates");
                 });

@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CovidTracking.Services;
+using CovidTracking.BusinessLayer.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace CovidTracking.Controllers
 {
@@ -14,7 +11,7 @@ namespace CovidTracking.Controllers
         private readonly ILogger<StateController> _logger;
         private readonly IStateService _stateService;
 
-        public StateController(ILogger<StateController> logger,IStateService stateService)
+        public StateController(ILogger<StateController> logger, IStateService stateService)
         {
             _logger = logger;
             _stateService = stateService;
@@ -33,16 +30,40 @@ namespace CovidTracking.Controllers
             return Ok(statesValues);
         }
 
-        [HttpGet("GetStatesCodeName")]
-        public async Task<IActionResult> GetStatesCodeName()
+        [HttpGet("GetCurrentStateCovidMap")]
+        public async Task<IActionResult> GetCurrentStateCovidMapsAsync()
         {
-            var statesCodeName = await _stateService.GetStatesCodeNameAsync();
-            if (statesCodeName == null)
+            var currentStateCovidMaps = await _stateService.GetCurrentStateCovidMapsAsync();
+            if (currentStateCovidMaps == null)
             {
                 return NotFound();
             }
 
-            return Ok(statesCodeName);
+            return Ok(currentStateCovidMaps);
+        }
+
+        [HttpGet("GetStateCodeNames")]
+        public async Task<IActionResult> GetStateCodeNames()
+        {
+            var stateCodeNames = await _stateService.GetStateCodeNamesAsync();
+            if (stateCodeNames == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(stateCodeNames);
+        }
+
+        [HttpGet("GetStateCodeNamesFromCsv")]
+        public async Task<IActionResult> GetStateCodeNamesFromCsv()
+        {
+            var stateCodeNames = await _stateService.GetStateCodeNamesFromCsvAsync();
+            if (stateCodeNames == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(stateCodeNames);
         }
 
         [HttpGet("CheckCovidTrackingStatus")]
