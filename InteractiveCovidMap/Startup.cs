@@ -1,7 +1,8 @@
 using AutoMapper;
 using CovidTracking.BusinessLayer.Interfaces;
 using CovidTracking.BusinessLayer.Services;
-using CovidTracking.Models;
+using CovidTracking.CustomException;
+using CovidTracking.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -30,7 +31,9 @@ namespace CovidTracking
             services.AddAutoMapper(typeof(Startup));
             services.AddMemoryCache();
 
-            services.AddTransient<IStateService, StateService>();
+            services.AddTransient<ICurrentStateService, CurrentStateService>();
+            services.AddTransient<IStateCodeNameService, StateCodeNameService>();
+            services.AddTransient<ICovidTrackingApiService, CovidTrackingApiService>();
             services.AddTransient<ICountyService, CountyService>();
             services.AddTransient<ICacheService, CacheService>();
 
@@ -46,6 +49,8 @@ namespace CovidTracking
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseMiddleware(typeof(ErrorHandlerMiddleware));
 
             app.UseHttpsRedirection();
 

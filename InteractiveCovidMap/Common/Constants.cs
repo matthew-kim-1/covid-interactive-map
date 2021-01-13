@@ -20,7 +20,7 @@ namespace CovidTracking.Common
 
             public static class County
             {
-                public const string Counties = "";
+                public const string CountiesData = "https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_deaths_usafacts.csv";
             }
         }
 
