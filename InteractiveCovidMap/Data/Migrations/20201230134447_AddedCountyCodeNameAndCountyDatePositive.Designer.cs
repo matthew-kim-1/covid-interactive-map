@@ -3,15 +3,17 @@ using System;
 using CovidTracking.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace CovidTracking.Data.Migrations
 {
     [DbContext(typeof(CovidTrackingContext))]
-    partial class CovidTrackingContextModelSnapshot : ModelSnapshot
+    [Migration("20201230134447_AddedCountyCodeNameAndCountyDatePositive")]
+    partial class AddedCountyCodeNameAndCountyDatePositive
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
